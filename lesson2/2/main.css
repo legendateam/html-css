@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+    color: rgb(117, 9, 30);
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+.header {
+    height: 150px;
+    background-color: cornflowerblue;
+}
+
+.nav {
+    height: 75px;
+    background-color: rgb(88, 119, 175);
+}
+
+.nav > h2 {
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+    text-indent: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main {
+    height: 425px;
+    width: 1200px;
+    background-color: darkcyan;
+   
+}
+
+.aside {
+    height: 425px;
+    width: 400px;
+    background-color: rgb(87, 138, 138);
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(166, 194, 247);
+}
+
+
+.main > p:nth-child(1) {
+    text-align: justify;
+    padding: 20px 20px 10px 20px;;
+    box-sizing: border-box;
+}
+
+.main > p:nth-child(2) {
+    text-align: justify;
+    padding: 0px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+.main > p:nth-child(3) {
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.aside > h2 {
+    color: darkmagenta;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.aside > p {
+    text-align: justify;
+    padding: 20px;
+    margin: 0px;
+}
+
+.footer > p {
+    margin: 0px;
+    padding: 30px;
+}
+
+.father {
+    padding: 10px;
+    border-right: 2px solid black;
+}
