@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+}
+
+.main {
+    padding: 50px;
+    margin-left: 150px;
+}
+
+.box1 {
+    display: flex;
+    width: 1050px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+    flex:1;
+}
+
+.primary {
+    background-color: black;
+    height: 100px;
+    flex:5;
+    margin: 10px;
+}
+
+.sumary {
+    background-color: black;
+    height: 100px;
+    width: 1030px;
+    margin: 10px;
+}
+
+.alert {
+    background-color: blueviolet;
+    height: 300px;
+    width: 1030px;;
+    margin: 10px;
+}
+
+.small_column {
+    display: flex;
+    width: 1080px;
+    height: 505px;
+    margin: 10px;
+}
+
+
+.small {
+    background-color: darkorange;
+    height: 250px;
+    width: 250px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.large {
+    background-color: rgb(224, 130, 14);
+    height: 506px;
+    width: 510px;
+    margin: 2px;
+    padding: 2px;
+}
+.column {
+    flex-direction: column;
+}
+
+.box-flex-up {
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.box-flex-dawn{
+    display: flex;
+    width: 1080px;
+    height: 220px;
+    margin: 0px;
+    padding: 0px;
+}
+.box-flex-dawn2 {
+    display: flex;
+    width: 600px;
+    height: 220px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box_none {
+    display: flex;
+    width: 550px;
+    margin: 10px;
+}
+
+.none {
+    display: none;
+}
